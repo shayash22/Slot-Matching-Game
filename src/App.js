@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import SlotM from './SlotMach';
 
 
@@ -7,15 +7,12 @@ const App = () => {
     <>
       <h1 className="heading_style">
         🎰 Welcome to 
-        <span style={{ fontWeight: "bold" , backgroundColor: "#006dfc7e"}}> Slot machine game</span> 🎰
+        <span style={{ fontWeight: "bold" , backgroundColor: "#fff"}}> Slot machine game</span> 🎰
       </h1>
       <div className="slotmachine">
         <SlotM x= "😄" y= "😄" z= "😄"/>
-        <hr/>
         <SlotM x= '😸' y= '🥰' z= "😄"/>
-        <hr />
         <SlotM x= "🐌" y= "☃️" z= "🗼"/>
-        <hr />
       </div>
     </>
   );
